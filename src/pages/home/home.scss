@@ -1,0 +1,58 @@
+page-home {
+    .background-image {
+        background-image: url(https://ununsplash.imgix.net/photo-1421091242698-34f6ad7fc088?fit=crop&fm=jpg&h=650&q=75&w=950);
+        background-size: cover;
+        background-position: center;
+        height: 50vw;
+    }
+ 
+    .main-content {
+        padding: 20px;
+        background-color: white;
+        position: absolute;
+    }
+
+    .header-image {
+    background-image: url(https://ununsplash.imgix.net/photo-1421091242698-34f6ad7fc088?fit=crop&fm=jpg&h=650&q=75&w=950);
+    height: 40vh;
+}
+ 
+.main-content {
+    padding: 20px;
+    background-color: white;
+}
+
+
+/* Styles here */
+@-webkit-keyframes bouncey{
+  0% {
+    -webkit-transform: translate3d(0,0,0);
+  }
+  25% {
+    -webkit-transform: translate3d(0,-30%,0);
+  }
+  50% {
+    -webkit-transform: translate3d(0,0,0);
+  }
+  75% {
+    -webkit-transform: translate3d(0,30%,0);
+  }
+  100% {
+    -webkit-transform: translate3d(0,0,0);
+  }
+}
+
+.bounce{
+  -webkit-animation: bouncey ease-in 1;
+  animation: bouncey ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration:  1000ms;
+  animation-duration: 1000ms;
+}
+
+
+
+
+ 
+}
