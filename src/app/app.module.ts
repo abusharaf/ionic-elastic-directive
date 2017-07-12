@@ -4,7 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { ElasticHeader } from '../components/elastic-header/elastic-header';
-// import { ParallaxHeader } from '../components/parallax-header/parallax-header';
+import { ParallaxHeader } from '../components/parallax-header/parallax-header';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -13,8 +13,8 @@ import { HomePage } from '../pages/home/home';
   declarations: [
     MyApp,
     HomePage,
-    ElasticHeader
-    // ParallaxHeader
+    ElasticHeader,
+    ParallaxHeader
   ],
   imports: [
     BrowserModule,

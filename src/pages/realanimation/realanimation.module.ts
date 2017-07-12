@@ -9,8 +9,7 @@ import { ParallaxHeaderComponent } from "../../components/components.module";
     Realanimation
   ],
   imports: [
-    IonicPageModule.forChild(Realanimation),
-    ParallaxHeaderComponent
+    IonicPageModule.forChild(Realanimation)
   ],
   exports: [
     Realanimation
